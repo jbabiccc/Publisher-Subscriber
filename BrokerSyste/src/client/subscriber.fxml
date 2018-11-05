@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ControllerUI">
+   <children>
+      <TextField fx:id="usernameField" editable="false" layoutX="32.0" layoutY="28.0" promptText="username" />
+      <TextField fx:id="categoryField" layoutX="32.0" layoutY="66.0" promptText="category" />
+      <Button fx:id="subscribeButton" layoutX="32.0" layoutY="103.0" mnemonicParsing="false" onAction="#subscribeButtonPressed" prefHeight="25.0" prefWidth="149.0" text="Subscribe" />
+      <TextArea fx:id="articleArea" layoutX="242.0" layoutY="14.0" prefHeight="374.0" prefWidth="341.0" promptText="getMessage" />
+   </children>
+</AnchorPane>
